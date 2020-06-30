@@ -1,0 +1,112 @@
+
+body{
+    background-image: linear-gradient(green 20%,blue 30%,yellow 50%);
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+  }
+  span {
+    color: red;
+  }
+  .half-width {
+    width: 40%;
+    margin-left: 2%;
+    padding-left: 5%;
+    float: left;
+  }
+  img {
+    width: 70%;
+  }
+  section {
+    height: 500px;
+    padding-bottom: 150px;
+  }
+  
+  h2 {
+    font-size: 40px;
+  }
+  
+img:hover {
+    width: 100%;
+    transition-duration: 1.5s;
+  }
+  #color{
+      color: lightpink;
+  }
+  .hover:hover{
+      font-size: 26px;
+      color: red;
+      transition-duration: 1s;
+  }
+  .btn {
+	text-decoration: none;
+	padding: 10px 20px;
+	background-image: linear-gradient(180deg, rgb(184, 166, 164),tomato);
+	color: white;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-image: radial-gradient(red,yellow);
+    border-radius: 5px;
+    box-shadow: 1px 3px 8px gray;
+  }
+  .Dream-area{
+      background-image: url(images/dream-bg.png);
+      background-position: right;
+      background-repeat: no-repeat;
+  }
+  
+#full {
+    border-left: 7px solid;
+	border-image: linear-gradient(180deg, lightsalmon, tomato);
+	border-image-slice: 1;
+	margin-left: 50px;
+  }
+  .khelahobe {
+    
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color:lightcyan;
+  }
+  
+#baby{
+    
+    border-left: 7px solid;
+	border-image: linear-gradient(180deg, lightblue, tomato);
+	border-image-slice: 1;
+	margin-left: 50px;
+}
+  .golden{
+      color: goldenrod;
+  }
+  .moja-kora{
+      background-image: url(images/exp-bg.png);
+      background-repeat: no-repeat;
+      background-position: left;
+  }
+footer {
+	padding: 10px;
+	text-align: center;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+   
+    
+
+}
